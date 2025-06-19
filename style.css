@@ -64,3 +64,57 @@ ul.header-links > li >a {
     width: 300px;
     padding: 40px 0;
 }
+
+.information {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.illustrations {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+}
+
+.illustrations>div {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    width: 150px;
+}
+
+.illustrations>div>img {
+    border: 5px solid #3882F6;
+    border-radius: 10px;
+    object-fit: cover;
+    width: 150px;
+    height: 150px;
+
+}
+
+.quote-box{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    background-color: #E5E7EB;
+    padding: 50px 0;
+}
+
+.quote {
+    font-style: italic;
+    font-weight: 100;
+    font-size: 36px;
+    width : 50%;
+    color:#1F2937;
+ 
+}
+
+.author {
+    font-weight: 900;
+    display: flex;
+    align-self: flex-end;
+    width:30%;
+}
